@@ -4,7 +4,7 @@ Site that provides search capability across multiple online course websites, pul
 
 ## Learning Goals
 - Solidify knowledge of how to use third-party APIs in Rails.
-- Focus on TDD, including unit and functional testing.
+- Focus on TDD, including unit (model) and functional (controller) testing.
 - Practice setting up User Auth and OAuth.
 - Gain more exposure to reading and interpreting third-party API documentation.
 - Use more Bootstrap functionality & features.
