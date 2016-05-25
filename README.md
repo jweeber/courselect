@@ -10,7 +10,7 @@ Site that provides search capability across multiple online course websites, pul
 - Use more Bootstrap functionality & features.
 
 ## Target Audience
-- Anyone who has ever wished they could just search for online courses in one place (this includes me)!
+Anyone who has ever wished they could just search for online courses in one place (this includes me)!
 
 ## Technologies/Frameworks
 - Ruby
