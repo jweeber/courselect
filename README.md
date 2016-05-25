@@ -22,6 +22,7 @@ Anyone who has ever wished they could just search for online courses in one plac
 ## Dependencies/Gems
 - HTTParty
 - OmniAuth
+- Bcrypt
 - Simplecov
 - vcr
 
