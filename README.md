@@ -29,7 +29,7 @@ Anyone who has ever wished they could just search for online courses in one plac
 - Coursera
 - Udacity
 - Udemy
-- edX (optional)
+- edX
 
 ## User Authentication
 - OAuth through Coursera
