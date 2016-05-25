@@ -35,8 +35,8 @@ Site that provides search capability across multiple online course websites, pul
 - OAuth through Coursera
 - Authentication through Rails
 
-## Success for Project
-### Success for me looks like:
+## Project Completion
+#### Success for me looks like:
 - Using at least 3 third-party APIs to accomplish the search functionality of the app. 
 - Writing good tests with at least 95% coverage.
 - User Auth through Rails working.
