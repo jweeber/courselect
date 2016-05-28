@@ -16,12 +16,12 @@ Anyone who has ever wished they could just search for online courses in one plac
 - Ruby
 - Rails
 - Third-party APIs 
-- OAuth
+- OAuth (optional)
 - Bootstrap
 
 ## Dependencies/Gems
 - HTTParty
-- OmniAuth
+- OmniAuth (optional)
 - Bcrypt
 - Simplecov
 - vcr
@@ -30,11 +30,14 @@ Anyone who has ever wished they could just search for online courses in one plac
 - Coursera
 - Udacity
 - Udemy
-- edX
+- edX (if there is time)
 
 ## User Authentication
-- OAuth through Coursera
 - Authentication through Rails
+
+## Nice to Have
+- OAuth through Coursera
+- Four APIs integrated
 
 ## Project Completion
 #### Success for me looks like:
