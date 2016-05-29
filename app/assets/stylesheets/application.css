@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+
+ header {
+	height: 100px;
+	width: 100%;
+	padding: 1% 2% 0 2%;
+}
+
+div.header {
+	float: right;
+	display: inline;
+	padding-right: 8%;
+	font-weight: bolder;
+	font-size: 20px;
+}
+
+ul.nav-top li {
+	display: inline;
+	padding-right: 30px;
+}
+
+li.logged-in {
+	padding-top: 10px;
+}
+
+a {
+	text-decoration: none;
+}
