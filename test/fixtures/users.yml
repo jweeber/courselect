@@ -1,11 +1,10 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+first_user:
+  username: user_one
+  email: user_one@user.com
+  password_digest: <%= BCrypt::Password.create('password', cost: 1) %>
 
-# This model initially had no columns defined.  If you add columns to the
-# model remove the '{}' from the fixture names and add the columns immediately
-# below each fixture, per the syntax in the comments below
-#
-one: {}
-# column: value
-#
-two: {}
-#  column: value
+
+second_user:
+  username: user_two
+  email: user_two@user.com
+  password_digest: <%= BCrypt::Password.create('other password', cost: 1) %>
