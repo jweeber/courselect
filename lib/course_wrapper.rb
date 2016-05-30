@@ -12,7 +12,7 @@ class	CourseWrapper
 	# 	@udemy = 
 	# end
 
-	def self.get_udacity_courses(keyword)
+	def self.get_udacity_courses
 		HTTParty.get(UDACITY_URL)["courses"]
 	end
 

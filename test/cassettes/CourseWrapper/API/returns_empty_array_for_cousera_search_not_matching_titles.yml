@@ -23,14 +23,14 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 30 May 2016 20:25:13 GMT
+      - Mon, 30 May 2016 20:25:14 GMT
       Etag:
       - '"-2129392282"'
       Set-Cookie:
-      - CSRF3-Token=1465503913.hUgKm2gMWL7XUxw4; Max-Age=864000; Expires=Thu, 09 Jun
-        2016 20:25:13 GMT; Path=/; Domain=.coursera.org
-      - __204u=4760832198-1464639913165; Max-Age=31536000; Expires=Tue, 30 May 2017
-        20:25:13 GMT; Path=/; Domain=.coursera.org
+      - CSRF3-Token=1465503914.TdUVMwczkTrWjSHu; Max-Age=864000; Expires=Thu, 09 Jun
+        2016 20:25:14 GMT; Path=/; Domain=.coursera.org
+      - __204u=7339583701-1464639914279; Max-Age=31536000; Expires=Tue, 30 May 2017
+        20:25:14 GMT; Path=/; Domain=.coursera.org
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Vary:
@@ -38,7 +38,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Coursera-Request-Id:
-      - nPxIeCakEeaDnw7AWxpgPQ
+      - naZEXCakEeaDnw7AWxpgPQ
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -816,7 +816,7 @@ http_interactions:
         IjoiRXNwYcOxb2wifSx7ImlkIjoicHQtQlIiLCJuYW1lIjoiUG9ydHVndcOq
         cyBicmFzaWxlaXJvIn1dfX0=
     http_version: 
-  recorded_at: Mon, 30 May 2016 20:25:13 GMT
+  recorded_at: Mon, 30 May 2016 20:25:14 GMT
 - request:
     method: get
     uri: https://api.coursera.org/api/courses.v1?fields=instructorIds,primaryLanguages,photoUrl,description,previewLink&includes=instructorIds,primaryLanguages,photoUrl,description,previewLink&limit=20&q=search&query=jkjkfd
@@ -840,14 +840,14 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Mon, 30 May 2016 20:25:13 GMT
+      - Mon, 30 May 2016 20:25:14 GMT
       Etag:
       - '"-1728491715"'
       Set-Cookie:
-      - CSRF3-Token=1465503913.NISBPH6w4caJq3i2; Max-Age=864000; Expires=Thu, 09 Jun
-        2016 20:25:13 GMT; Path=/; Domain=.coursera.org
-      - __204u=9829537471-1464639913552; Max-Age=31536000; Expires=Tue, 30 May 2017
-        20:25:13 GMT; Path=/; Domain=.coursera.org
+      - CSRF3-Token=1465503914.kJGni7337VxkpCFS; Max-Age=864000; Expires=Thu, 09 Jun
+        2016 20:25:14 GMT; Path=/; Domain=.coursera.org
+      - __204u=4842010729-1464639914668; Max-Age=31536000; Expires=Tue, 30 May 2017
+        20:25:14 GMT; Path=/; Domain=.coursera.org
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Vary:
@@ -855,7 +855,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Coursera-Request-Id:
-      - nTcuZCakEealphIK3HOBOQ
+      - neGfoyakEeaskAp2EtxTIQ
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -1103,7 +1103,7 @@ http_interactions:
         fV19fX0sImxpbmtlZCI6eyJpbnN0cnVjdG9ycy52MSI6W10sImxhbmd1YWdl
         cy52MSI6W119fQ==
     http_version: 
-  recorded_at: Mon, 30 May 2016 20:25:13 GMT
+  recorded_at: Mon, 30 May 2016 20:25:14 GMT
 - request:
     method: get
     uri: https://www.udacity.com/public-api/v0/courses
@@ -1124,6 +1124,8 @@ http_interactions:
     headers:
       X-Udacity-Trail:
       - "/public-api/v0/courses get"
+      Cache-Control:
+      - public, max-age=1800
       Pragma:
       - Public
       Content-Type:
@@ -1149,13 +1151,9 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Date:
-      - Mon, 30 May 2016 20:21:14 GMT
+      - Mon, 30 May 2016 20:25:15 GMT
       Server:
       - Google Frontend
-      Cache-Control:
-      - public, max-age=1800
-      Age:
-      - '239'
       Alt-Svc:
       - quic=":443"; ma=2592000; v="34,33,32,31,30,29,28,27,26,25"
       Transfer-Encoding:
@@ -11032,5 +11030,5 @@ http_interactions:
         for the curriculum level. (We require past programming experience.)", "expected_duration":
         6}]}'
     http_version: 
-  recorded_at: Mon, 30 May 2016 20:25:13 GMT
+  recorded_at: Mon, 30 May 2016 20:25:15 GMT
 recorded_with: VCR 3.0.3

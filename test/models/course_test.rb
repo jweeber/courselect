@@ -9,7 +9,6 @@ class CourseTest < ActiveSupport::TestCase
   		"subtitle" => "Learning Computer Science Basics"
   	}]
   	@keyword = "computer science"
-		
 	end
 	
   test "returns an array of udacity courses" do

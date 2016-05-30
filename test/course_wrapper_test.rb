@@ -18,17 +18,20 @@ class CourseWrapperTest < ActiveSupport::TestCase
 	    before do
 	      @valid_coursera_search = CourseWrapper.get_coursera_courses("computer science")
 	      @invalid_coursera_search = CourseWrapper.get_coursera_courses("jkjkfd")
+	    	@valid_udacity_search = CourseWrapper.get_udacity_courses
 	    end
 
 			it "can call to coursera API and return array of courses", :vcr do
 	    	assert_instance_of Array, @valid_coursera_search
 			end
 
-			it "returns empty array for search that doesn't match course titles", :vcr do
+			it "returns empty array for cousera search not matching titles", :vcr do
 	    	assert_empty @invalid_coursera_search
 			end
 
-
+			it "can call to udacity API and return array of courses", :vcr do
+	    	assert_instance_of Array, @valid_udacity_search
+			end
 
 
 		end
