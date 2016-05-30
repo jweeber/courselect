@@ -1,4 +1,4 @@
-class Course
+class Course < ActiveRecord::Base
 
 	# def self.coursera_link(coursera_results)
 	# 	links = []
@@ -25,5 +25,5 @@ class Course
 		end
 		return @searched_for
 	end
-	
+
 end
