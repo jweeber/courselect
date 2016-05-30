@@ -32,8 +32,6 @@ class CourseWrapperTest < ActiveSupport::TestCase
 			it "can call to udacity API and return array of courses", :vcr do
 	    	assert_instance_of Array, @valid_udacity_search
 			end
-
-
 		end
   end
 
