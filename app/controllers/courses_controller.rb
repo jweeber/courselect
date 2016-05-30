@@ -9,10 +9,8 @@ class CoursesController < ApplicationController
 	def show
 		keyword = params[:keyword]
 		@coursera_results = CourseWrapper.get_coursera_courses(keyword)
-		# @coursera_link = Course.coursera_link(@coursera_results)
-
-		# @coursera_instructors = 
-		@udacity_results = CourseWrapper.get_udacity_courses(keyword)
+		@udacity_search = CourseWrapper.get_udacity_courses(keyword)
+		@udacity_results = Course.udacity_courses(@udacity_search, keyword)
 	end
 
 end
