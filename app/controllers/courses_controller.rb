@@ -12,7 +12,7 @@ class CoursesController < ApplicationController
 		# @coursera_link = Course.coursera_link(@coursera_results)
 
 		# @coursera_instructors = 
-		# @udacity_results = CourseWrapper.get_udacity_courses(keyword)
+		@udacity_results = CourseWrapper.get_udacity_courses(keyword)
 	end
 
 end
