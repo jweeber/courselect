@@ -1,6 +1,27 @@
 {
   "MiniTest": {
     "coverage": {
+      "/Users/Jessica/C5/projects/courselect/lib/course_wrapper.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        4,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        0,
+        null,
+        null,
+        null
+      ],
       "/Users/Jessica/C5/projects/courselect/app/models/course.rb": [
         1,
         null,
@@ -137,29 +158,8 @@
       "/Users/Jessica/C5/projects/courselect/app/helpers/users_helper.rb": [
         0,
         0
-      ],
-      "/Users/Jessica/C5/projects/courselect/lib/course_wrapper.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
       ]
     },
-    "timestamp": 1464636665
+    "timestamp": 1464638823
   }
 }
