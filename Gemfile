@@ -14,6 +14,7 @@ gem 'bcrypt'
 gem 'simplecov',:require => false, :group => :test
 gem 'omniauth-oauth2', '~> 1.3.1'
 gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'rails_12factor', group: :production
 
 
 group :development, :test do
