@@ -14,28 +14,44 @@
  *= require_self
  */
 
- header {
-	height: 100px;
-	width: 100%;
-	padding: 1% 2% 0 2%;
+body {
+	min-height: 100%;
+  padding-top: 70px;
 }
 
-div.header {
+input#keyword {
+  width: 30em;
+  height: 3em;
+  text-align: center;
+}
+
+input.btn.btn-primary {
+	border-radius: 50px;
+  margin-top: 2%;
+  height: 50px;
+  width: 20%;
+  font-size: 20px;
+}
+
+form.search-bar {
+	text-align: center;
+}
+/*div.header {
 	float: right;
 	display: inline;
 	padding-right: 8%;
 	font-weight: bolder;
 	font-size: 20px;
-}
+}*/
 
-ul.nav-top li {
+/*ul.nav-top li {
 	display: inline;
 	padding-right: 30px;
-}
+}*/
 
-li.logged-in {
+/*li.logged-in {
 	padding-top: 10px;
-}
+}*/
 
 a {
 	text-decoration: none;

@@ -1,5 +1,11 @@
-<%= form_tag search_path, method: :post do %>
-	<%= label_tag :keyword %>
-	<%= text_field_tag :keyword %>
-	<%= submit_tag %>
+<div class="jumbotron">
+Stuff
+</div>
+
+
+
+
+<%= form_tag search_path, method: :post, class: "search-bar" do %>
+	<%= text_field_tag :keyword %><br>
+	<%= submit_tag "Find Courses!", class: "btn btn-primary" %>
 <% end %>
