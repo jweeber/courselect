@@ -4,8 +4,18 @@ Stuff
 
 
 
-
+<h2 class="index">Search for Courses!</h2>
 <%= form_tag search_path, method: :post, class: "search-bar" do %>
 	<%= text_field_tag :keyword %><br>
 	<%= submit_tag "Find Courses!", class: "btn btn-primary" %>
 <% end %>
+
+<div class="col-lg-4">
+  <%= image_tag "person-headphones-laptop", class: "img-responsive center-block" %>
+</div>
+<div class="col-lg-4">
+  <%= image_tag "hands-typing-on-laptop", class: "img-responsive center-block" %>
+</div>
+<div class="col-lg-4">
+  <%= image_tag "person-on-laptop-on-couch", class: "img-responsive center-block" %>
+</div>

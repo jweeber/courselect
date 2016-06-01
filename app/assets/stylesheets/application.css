@@ -28,14 +28,23 @@ input#keyword {
 input.btn.btn-primary {
 	border-radius: 50px;
   margin-top: 2%;
-  height: 50px;
+  height: 50%;
   width: 20%;
   font-size: 20px;
+  white-space: normal;
 }
 
 form.search-bar {
 	text-align: center;
 }
+
+img {
+  height: 250px;
+  padding: 2%;
+  margin-top: 10%;
+  border-radius: 15%;
+}
+
 /*div.header {
 	float: right;
 	display: inline;
