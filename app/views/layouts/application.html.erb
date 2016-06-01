@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Courselect</title>
-	<%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-	<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-	<%= csrf_meta_tags %>
+  <title>Courselect</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <%= csrf_meta_tags %>
 </head>
 <body>
 
-	<header>
-		<nav class="navbar navbar-default navbar-fixed-top">
-			<div class="container">
-				<div class="navbar-header">
-					<a class="navbar-brand">courselect</a>
-				</div>
-				<div id= "navbar" class="navbar-collapse collapse">
-					<ul class="nav navbar-nav">
-						<li><%= link_to "Home", root_path %></li>
-						<li><%= link_to "Courses to Take", take_path %></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-						<% if current_user %><br>
+  <header>
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand">courselect</a>
+        </div>
+        <div id= "navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><%= link_to "Home", root_path %></li>
+            <li><%= link_to "Courses to Take", take_path %></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <% if current_user %><br>
               <li class="logged-in"><%= "Hi, #{current_user.username}!" %></li>
               <li><%= link_to "Log out", logout_path %></li>
            <% else %>
