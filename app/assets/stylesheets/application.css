@@ -44,11 +44,28 @@ form.search-bar {
   text-align: center;
 }
 
-img {
+.index-img {
   height: 250px;
   padding: 2%;
   margin-top: 10%;
   border-radius: 15%;
+}
+
+.course-img {
+  border-radius: 25%;
+  height: 150px;
+  width: 150px;
+}
+
+.course-info {
+  transform: translateY(50%);
+}
+
+.course-row {
+  background-color: rgba(177, 177, 205, 0.4);
+  border-radius: 25px;
+  margin-bottom: 2%;
+  padding: 2%;
 }
 
 .index {
