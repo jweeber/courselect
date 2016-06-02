@@ -5,15 +5,23 @@
 
 body {
 	min-height: 100%;
-  padding-top: 70px;
+  padding-top: 100px;
 }
 
 li.logged-in {
-	padding-top: 15px;
+	padding: 15px 0px 5px 15px;
 }
 
 a.navbar-brand {
   font-size: 35px;
+}
+
+a.big-links {
+  color: #006600;
+}
+
+a.big-links:hover, a.big-links:visited {
+  text-decoration: none;
 }
 
 input#keyword {
@@ -29,6 +37,7 @@ input.btn.btn-primary {
   width: 20%;
   font-size: 20px;
   white-space: normal;
+  background-color: #006600;
 }
 
 form.search-bar {
@@ -49,7 +58,7 @@ img {
 .course-list {
   text-align: center;
   padding-top: 2%;
-  margin-bottom: 5%;
+  margin-bottom: 2%;
 }
 
 .wrapper {
@@ -68,9 +77,4 @@ footer {
   text-align: right;
   font-style: italic;
   padding-right: 5%;
-}
-
-
-a {
-	text-decoration: none;
 }
