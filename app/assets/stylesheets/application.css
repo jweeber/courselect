@@ -19,6 +19,10 @@ body {
   padding-top: 70px;
 }
 
+a.navbar-brand {
+  font-size: 35px;
+}
+
 input#keyword {
   width: 30em;
   height: 3em;
@@ -43,6 +47,34 @@ img {
   padding: 2%;
   margin-top: 10%;
   border-radius: 15%;
+}
+
+.index {
+  text-align: center;
+}
+
+.course-list {
+  text-align: center;
+  padding-top: 2%;
+  margin-bottom: 5%;
+}
+
+.wrapper {
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -3em;
+}
+
+.footer, .push {
+  height: 3em;
+  clear: both;
+}
+
+footer {
+  text-align: right;
+  font-style: italic;
+  padding-right: 5%;
 }
 
 /*div.header {
