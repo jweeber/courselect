@@ -1,11 +1,16 @@
-<div class="col col-md-4">
+<div class="container">
+  <h2>Coursera Courses</h2>
   <% @coursera_results.each do |course| %>
-    <%= course["name"] %><br>
-    <%= course["description"].match(/^.*?[\.!\?](?:\s|$)/) %><br>
-  <% end %>
+      <%= course["name"] %><br>
+      <%= course["description"].match(/^.*?[\.!\?](?:\s|$)/) %><br>
+      <%= image_tag course["photoUrl"] %>
+      <%= link_to "Find this on Coursera", @coursera_search_link + course["name"], :target => "_blank" %>
+    <% end %>
 </div>
-
 <br>
+<h2>Udacity Courses</h2>
 <% @udacity_results.each do |course| %>
 	<%= course["title"] %><br>
 <% end %>
+
+<h2>Khan Academy Courses</h2>
