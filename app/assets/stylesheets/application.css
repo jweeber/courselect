@@ -1,15 +1,4 @@
 /*
- * This is a manifest file that'll be compiled into application.css, which will include all the files
- * listed below.
- *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
- *
- * You're free to add application-wide styles to this file and they'll appear at the bottom of the
- * compiled file so the styles you add here take precedence over styles defined in any styles
- * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
- * file per style scope.
- *
  *= require_tree .
  *= require_self
  */
@@ -17,6 +6,10 @@
 body {
 	min-height: 100%;
   padding-top: 70px;
+}
+
+li.logged-in {
+	padding-top: 15px;
 }
 
 a.navbar-brand {
@@ -30,7 +23,7 @@ input#keyword {
 }
 
 input.btn.btn-primary {
-	border-radius: 50px;
+  border-radius: 50px;
   margin-top: 2%;
   height: 50%;
   width: 20%;
@@ -39,7 +32,7 @@ input.btn.btn-primary {
 }
 
 form.search-bar {
-	text-align: center;
+  text-align: center;
 }
 
 img {
@@ -77,22 +70,6 @@ footer {
   padding-right: 5%;
 }
 
-/*div.header {
-	float: right;
-	display: inline;
-	padding-right: 8%;
-	font-weight: bolder;
-	font-size: 20px;
-}*/
-
-/*ul.nav-top li {
-	display: inline;
-	padding-right: 30px;
-}*/
-
-/*li.logged-in {
-	padding-top: 10px;
-}*/
 
 a {
 	text-decoration: none;

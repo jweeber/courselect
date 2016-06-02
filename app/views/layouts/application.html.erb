@@ -24,10 +24,15 @@
           <a href= "/" class="navbar-brand">Courselect</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
+        <% if current_user %>
+          <ul class="nav navbar-nav">
+          </ul>
+          <% end %>
           <ul class="nav navbar-nav navbar-right">
-           <li><%= link_to "Courses to Take", take_path %></li>
            <% if current_user %><br>
              <li class="logged-in"><%= "Hi, #{current_user.username}!" %></li>
+            <li><%= link_to "Courses to Take", take_path %></li>
+            <li><%= link_to "Taken Courses", taken_path %></li>
              <li><%= link_to "Log out", logout_path %></li>
            <% else %>
              <li><%= link_to "Sign-up", new_user_path %></li>
