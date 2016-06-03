@@ -42,6 +42,18 @@ class CourseWrapperTest < ActiveSupport::TestCase
       it "can call to khan academy API and return array of courses", :vcr do
         assert_instance_of Array, @valid_khan_search
       end
+
+      it "returns nil for khan academy search not matching titles", :vcr do
+        assert_nil @invalid_khan_search
+      end
+
+       it "does case insensitive search for khan academy course topics and returns array", :vcr do
+        assert_instance_of Array, @khan_case_insensitive
+      end
+
+      it "does case insensitive search for khan academy course topics", :vcr do
+        assert_equal "Algorithms", @khan_case_insensitive[0]["title"]
+      end
 		end
   end
 

@@ -14,7 +14,7 @@
       <img src="./assets/0.10.0/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" style="display:none;">
-      <div class="timestamp">Generated <abbr class="timeago" title="2016-06-02T17:48:40-07:00">2016-06-02T17:48:40-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2016-06-02T17:54:05-07:00">2016-06-02T17:54:05-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -25,7 +25,7 @@
      covered at
      <span class="covered_strength">
        <span class="red">
-         0.6
+         0.84
        </span>
     </span> hits/line)
   </h2>
@@ -157,7 +157,7 @@
         <td>12</td>
         <td>12</td>
         <td>0</td>
-        <td>3.7</td>
+        <td>5.9</td>
       </tr>
       
     </tbody>
@@ -458,7 +458,7 @@
      covered at
      <span class="covered_strength">
        <span class="green">
-         3.7
+         5.9
        </span>
     </span> hits/line)
   </h2>
@@ -490,7 +490,7 @@
         <td>12</td>
         <td>12</td>
         <td>0</td>
-        <td>3.7</td>
+        <td>5.9</td>
       </tr>
       
     </tbody>
@@ -1416,8 +1416,8 @@
           <code class="ruby">  def self.get_coursera_courses(keyword)</code>
         </li>
       
-        <li class="covered" data-hits="8" data-linenumber="9">
-          <span class="hits">8</span>
+        <li class="covered" data-hits="14" data-linenumber="9">
+          <span class="hits">14</span>
           
           <code class="ruby">    HTTParty.get(COURSERA_URL + &quot;?q=search&amp;query=#{keyword}&amp;includes=instructorIds,primaryLanguages,photoUrl,description,previewLink&amp;limit=20&amp;fields=instructorIds,primaryLanguages,photoUrl,description,previewLink&quot;)[&quot;elements&quot;]</code>
         </li>
@@ -1440,8 +1440,8 @@
           <code class="ruby">  def self.get_udacity_courses</code>
         </li>
       
-        <li class="covered" data-hits="4" data-linenumber="13">
-          <span class="hits">4</span>
+        <li class="covered" data-hits="7" data-linenumber="13">
+          <span class="hits">7</span>
           
           <code class="ruby">    HTTParty.get(UDACITY_URL)[&quot;courses&quot;]</code>
         </li>
@@ -1464,14 +1464,14 @@
           <code class="ruby">  def self.get_khan_courses(keyword)</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="17">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="21" data-linenumber="17">
+          <span class="hits">21</span>
           
           <code class="ruby">    keyword = keyword.downcase.strip.gsub(&#39; &#39;, &#39;-&#39;).gsub(/[^\w-]/, &#39;&#39;)</code>
         </li>
       
-        <li class="covered" data-hits="12" data-linenumber="18">
-          <span class="hits">12</span>
+        <li class="covered" data-hits="21" data-linenumber="18">
+          <span class="hits">21</span>
           
           <code class="ruby">    HTTParty.get(KHAN_URL + &quot;/#{keyword}&quot;)[&quot;children&quot;]</code>
         </li>
