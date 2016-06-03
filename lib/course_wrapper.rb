@@ -2,7 +2,6 @@ require 'httparty'
 
 class CourseWrapper
   COURSERA_COURSE_URL = "https://api.coursera.org/api/courses.v1"
-  COURSERA_INSTRUCTOR_URL = "https://api.coursera.org/api/instructors.v1"
   UDACITY_URL = "https://www.udacity.com/public-api/v0/courses"
   KHAN_URL = "http://www.khanacademy.org/api/v1/topic"
 
@@ -15,7 +14,9 @@ class CourseWrapper
   end
 
   def self.get_khan_courses(keyword)
+    keyword = keyword.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
     HTTParty.get(KHAN_URL + "/#{keyword}")["children"]
+
   end
 
 end

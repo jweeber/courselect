@@ -1,31 +1,31 @@
 <div class="wrapper">
-<h3 class="index">Search for Courses from:</h3>
-<div class="col-lg-4 course-list">
-  <h3><%= link_to "Coursera", "https://www.coursera.org/", :target => "_blank", class: "big-links" %></h3>
-</div>
-<div class="col-lg-4 course-list">
-  <h3><%= link_to "Udacity", "https://www.udacity.com/", :target => "_blank", class: "big-links" %></h3>
-</div>
-<div class="col-lg-4 course-list">
-  <h3>edX</h3>
-</div>
+  <h3 class="index">Search for Courses from:</h3>
+  <div class="col-lg-4 course-list">
+    <h3><%= link_to "Coursera", "https://www.coursera.org/", :target => "_blank", class: "big-links" %></h3>
+  </div>
+  <div class="col-lg-4 course-list">
+    <h3><%= link_to "Udacity", "https://www.udacity.com/", :target => "_blank", class: "big-links" %></h3>
+  </div>
+  <div class="col-lg-4 course-list">
+    <h3><%= link_to "Khan Academy", "https://www.khanacademy.org/", :target => "_blank", class: "big-links" %></h3>
+  </div>
 
-<%= form_tag search_path, method: :post, class: "search-bar" do %>
-	<%= text_field_tag :keyword %><br>
-	<%= submit_tag "Find Courses!", class: "btn btn-primary" %>
-<% end %>
+  <%= form_tag search_path, method: :post, class: "search-bar" do %>
+  	<%= text_field_tag :keyword %><br>
+  	<%= submit_tag "Find Courses!", class: "btn btn-primary" %>
+  <% end %>
 
-<div class="col-lg-4">
-  <%= image_tag "person-headphones-laptop", class: "img-responsive center-block index-img" %>
-</div>
-<div class="col-lg-4">
-  <%= image_tag "hands-typing-on-laptop", class: "img-responsive center-block index-img" %>
-</div>
-<div class="col-lg-4">
-  <%= image_tag "person-on-laptop-on-couch", class: "img-responsive center-block index-img" %>
-</div>
+  <div class="col-lg-4">
+    <%= image_tag "person-headphones-laptop", class: "img-responsive center-block index-img" %>
+  </div>
+  <div class="col-lg-4">
+    <%= image_tag "hands-typing-on-laptop", class: "img-responsive center-block index-img" %>
+  </div>
+  <div class="col-lg-4">
+    <%= image_tag "person-on-laptop-on-couch", class: "img-responsive center-block index-img" %>
+  </div>
 
-<div class="push"></div>
+  <div class="push"></div>
 </div>
 
 <footer class="footer">

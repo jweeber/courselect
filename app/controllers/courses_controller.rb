@@ -12,6 +12,7 @@ class CoursesController < ApplicationController
 		@coursera_search_link = "https://www.coursera.org/courses?languages=en&query="
 		@udacity_search = CourseWrapper.get_udacity_courses
 		@udacity_results = Course.udacity_courses(@udacity_search, keyword)
+		@khan_results = CourseWrapper.get_khan_courses(keyword)
 	end
 
 	def show_to_take
