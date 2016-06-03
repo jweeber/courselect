@@ -54,46 +54,60 @@
         null,
         null
       ],
-      "/Users/Jessica/C5/projects/courselect/app/controllers/application_controller.rb": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
-      ],
       "/Users/Jessica/C5/projects/courselect/app/controllers/courses_controller.rb": [
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
         0,
         0,
         0,
         0,
         0,
         0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        0
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null
+      ],
+      "/Users/Jessica/C5/projects/courselect/app/controllers/application_controller.rb": [
+        1,
+        null,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/Jessica/C5/projects/courselect/app/helpers/application_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Jessica/C5/projects/courselect/app/helpers/courses_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Jessica/C5/projects/courselect/app/helpers/sessions_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Jessica/C5/projects/courselect/app/helpers/users_helper.rb": [
+        1,
+        null
       ],
       "/Users/Jessica/C5/projects/courselect/app/controllers/sessions_controller.rb": [
         0,
@@ -139,24 +153,8 @@
         0,
         0,
         0
-      ],
-      "/Users/Jessica/C5/projects/courselect/app/helpers/application_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/Jessica/C5/projects/courselect/app/helpers/courses_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/Jessica/C5/projects/courselect/app/helpers/sessions_helper.rb": [
-        0,
-        0
-      ],
-      "/Users/Jessica/C5/projects/courselect/app/helpers/users_helper.rb": [
-        0,
-        0
       ]
     },
-    "timestamp": 1464915245
+    "timestamp": 1464916720
   }
 }

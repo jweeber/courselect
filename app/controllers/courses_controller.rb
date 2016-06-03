@@ -2,9 +2,7 @@ require_relative '../../lib/course_wrapper'
 
 class CoursesController < ApplicationController
 
-	def index
-		
-	end
+	def index; end
 
 	def show
 		keyword = params[:keyword]

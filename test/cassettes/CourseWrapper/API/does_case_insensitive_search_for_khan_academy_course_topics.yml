@@ -23,14 +23,14 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 03 Jun 2016 00:53:38 GMT
+      - Fri, 03 Jun 2016 01:03:42 GMT
       Etag:
       - '"-2129392282"'
       Set-Cookie:
-      - CSRF3-Token=1465779218.ZNuzYKOrrkkyVkjq; Max-Age=864000; Expires=Mon, 13 Jun
-        2016 00:53:38 GMT; Path=/; Domain=.coursera.org
-      - __204u=2895498337-1464915218893; Max-Age=31536000; Expires=Sat, 03 Jun 2017
-        00:53:38 GMT; Path=/; Domain=.coursera.org
+      - CSRF3-Token=1465779822.vnKKIrkC16DJMYfX; Max-Age=864000; Expires=Mon, 13 Jun
+        2016 01:03:42 GMT; Path=/; Domain=.coursera.org
+      - __204u=6875060963-1464915822145; Max-Age=31536000; Expires=Sat, 03 Jun 2017
+        01:03:42 GMT; Path=/; Domain=.coursera.org
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Vary:
@@ -38,7 +38,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Coursera-Request-Id:
-      - m_yYviklEea4MA71Td4pZQ
+      - A42LiSknEeaAKA4q3Nsi2Q
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -816,7 +816,7 @@ http_interactions:
         IjoiRXNwYcOxb2wifSx7ImlkIjoicHQtQlIiLCJuYW1lIjoiUG9ydHVndcOq
         cyBicmFzaWxlaXJvIn1dfX0=
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 00:53:41 GMT
+  recorded_at: Fri, 03 Jun 2016 01:03:45 GMT
 - request:
     method: get
     uri: https://api.coursera.org/api/courses.v1?fields=instructorIds,primaryLanguages,photoUrl,description,previewLink&includes=instructorIds,primaryLanguages,photoUrl,description,previewLink&limit=20&q=search&query=jkjkfd
@@ -840,14 +840,14 @@ http_interactions:
       Content-Type:
       - application/json; charset=utf-8
       Date:
-      - Fri, 03 Jun 2016 00:53:39 GMT
+      - Fri, 03 Jun 2016 01:03:42 GMT
       Etag:
       - '"-1728491715"'
       Set-Cookie:
-      - CSRF3-Token=1465779219.Pc57IKvBohlNuSFN; Max-Age=864000; Expires=Mon, 13 Jun
-        2016 00:53:39 GMT; Path=/; Domain=.coursera.org
-      - __204u=6290108993-1464915219394; Max-Age=31536000; Expires=Sat, 03 Jun 2017
-        00:53:39 GMT; Path=/; Domain=.coursera.org
+      - CSRF3-Token=1465779822.PZ0QIfklx3OQtjzP; Max-Age=864000; Expires=Mon, 13 Jun
+        2016 01:03:42 GMT; Path=/; Domain=.coursera.org
+      - __204u=8691998579-1464915822578; Max-Age=31536000; Expires=Sat, 03 Jun 2017
+        01:03:42 GMT; Path=/; Domain=.coursera.org
       Strict-Transport-Security:
       - max-age=31536000; includeSubDomains; preload
       Vary:
@@ -855,7 +855,7 @@ http_interactions:
       X-Content-Type-Options:
       - nosniff
       X-Coursera-Request-Id:
-      - nEkKWSklEeaz1w5hvWe9Yw
+      - A892eiknEeaw-BIVes69Iw
       X-Frame-Options:
       - SAMEORIGIN
       X-Xss-Protection:
@@ -1103,7 +1103,7 @@ http_interactions:
         fV19fX0sImxpbmtlZCI6eyJpbnN0cnVjdG9ycy52MSI6W10sImxhbmd1YWdl
         cy52MSI6W119fQ==
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 00:53:42 GMT
+  recorded_at: Fri, 03 Jun 2016 01:03:45 GMT
 - request:
     method: get
     uri: https://www.udacity.com/public-api/v0/courses
@@ -1151,7 +1151,7 @@ http_interactions:
       Vary:
       - Accept-Encoding
       Date:
-      - Fri, 03 Jun 2016 00:53:40 GMT
+      - Fri, 03 Jun 2016 01:03:44 GMT
       Server:
       - Google Frontend
       Alt-Svc:
@@ -11032,7 +11032,7 @@ http_interactions:
         for the curriculum level. (We require past programming experience.)", "expected_duration":
         6}]}'
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 00:53:43 GMT
+  recorded_at: Fri, 03 Jun 2016 01:03:47 GMT
 - request:
     method: get
     uri: http://www.khanacademy.org/api/v1/topic/algebra
@@ -11064,18 +11064,18 @@ http_interactions:
       Cache-Control:
       - no-cache
       Set-Cookie:
-      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206WXVwc3NjRXZSUGxlQ3JCTnVOMy12LXkwSzUxazUxS0VuSFlzXzFtMw==;
-        expires=Sat, 03 Jun 2017 00:53:47 GMT; Max-Age=31536000; Path=/
-      - ka_session=ZVbiHqiGRGp2vZH_pOtf35OScbqIORLY6eL-PERP:1464915227:1464915227;
-        expires=Sat, 03 Jun 2017 00:53:47 GMT; Max-Age=31536000; Path=/
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206M1ZvalllUkJGejRueVlZaUVYakZBc3pBNG5ScHdfOWx0NEtuTnhmUA==;
+        expires=Sat, 03 Jun 2017 01:03:44 GMT; Max-Age=31536000; Path=/
+      - ka_session=Qlij2FEWuxSNMZgBz-8GHPdWXfgkS7bdFCxIksGR:1464915824:1464915824;
+        expires=Sat, 03 Jun 2017 01:03:44 GMT; Max-Age=31536000; Path=/
       Date:
-      - Fri, 03 Jun 2016 00:53:47 GMT
+      - Fri, 03 Jun 2016 01:03:44 GMT
       Server:
       - Google Frontend
       Content-Length:
       - '19292'
       Expires:
-      - Fri, 03 Jun 2016 00:53:47 GMT
+      - Fri, 03 Jun 2016 01:03:44 GMT
     body:
       encoding: ASCII-8BIT
       string: !binary |-
@@ -11509,7 +11509,7 @@ http_interactions:
         MyIsICJjb250ZW50X2lkIjogInhjZjg3NmZlNyIsICJjb250ZW50X2tpbmQi
         OiAiVG9waWMiLCAiY3VycmljdWx1bV9rZXkiOiAiIn0=
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 00:53:50 GMT
+  recorded_at: Fri, 03 Jun 2016 01:03:47 GMT
 - request:
     method: get
     uri: http://www.khanacademy.org/api/v1/topic/jkjkfd
@@ -11541,12 +11541,12 @@ http_interactions:
       Cache-Control:
       - no-cache
       Set-Cookie:
-      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206TkZoMFhpdzdHZXc0cFNOZE5VWW9ROUp1Vnc1YWxfZThnbDU1bjBqRA==;
-        expires=Sat, 03 Jun 2017 00:53:47 GMT; Max-Age=31536000; Path=/
-      - ka_session=So8VKjZX4M788WNu0tdrpFtOPi_Pk6kzdrvKB4NC:1464915227:1464915227;
-        expires=Sat, 03 Jun 2017 00:53:47 GMT; Max-Age=31536000; Path=/
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206bUYzR0tRdlI3aE92OGVPM3g4YnB5QXhZYy1XczE1TkFBb0t0dWtmYQ==;
+        expires=Sat, 03 Jun 2017 01:03:44 GMT; Max-Age=31536000; Path=/
+      - ka_session=UE-yM_szofuSnu4bJfopwb3YUJNaIM69aqFuVb2B:1464915824:1464915824;
+        expires=Sat, 03 Jun 2017 01:03:44 GMT; Max-Age=31536000; Path=/
       Date:
-      - Fri, 03 Jun 2016 00:53:47 GMT
+      - Fri, 03 Jun 2016 01:03:45 GMT
       Server:
       - Google Frontend
       Content-Length:
@@ -11555,7 +11555,7 @@ http_interactions:
       encoding: UTF-8
       string: Could not find topic with ID jkjkfd
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 00:53:50 GMT
+  recorded_at: Fri, 03 Jun 2016 01:03:48 GMT
 - request:
     method: get
     uri: http://www.khanacademy.org/api/v1/topic/computer-science
@@ -11587,18 +11587,18 @@ http_interactions:
       Cache-Control:
       - no-cache
       Set-Cookie:
-      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206VDF6Q05Ic2hycWMtX3RZTUFNcE4xTGg0TEdSOUdJN3RHVFRhcFlHSw==;
-        expires=Sat, 03 Jun 2017 00:53:47 GMT; Max-Age=31536000; Path=/
-      - ka_session=vk0gprXgpTK559eiQPFh9TxUchH2BSjFwHRilBIB:1464915227:1464915227;
-        expires=Sat, 03 Jun 2017 00:53:47 GMT; Max-Age=31536000; Path=/
+      - gae_b_id=X2dhZV9iaW5nb19yYW5kb206LVFfeVp1NFZXeU1VV0hMMk1YUHFLNzVieXN2Tk1tQzQ3cXdTcHI2UA==;
+        expires=Sat, 03 Jun 2017 01:03:45 GMT; Max-Age=31536000; Path=/
+      - ka_session=L3wWhHOrHQ4xQ13Xq3-orA_3w8i6qjNDX64TUw_A:1464915825:1464915825;
+        expires=Sat, 03 Jun 2017 01:03:45 GMT; Max-Age=31536000; Path=/
       Date:
-      - Fri, 03 Jun 2016 00:53:47 GMT
+      - Fri, 03 Jun 2016 01:03:45 GMT
       Server:
       - Google Frontend
       Content-Length:
       - '5858'
       Expires:
-      - Fri, 03 Jun 2016 00:53:47 GMT
+      - Fri, 03 Jun 2016 01:03:45 GMT
     body:
       encoding: UTF-8
       string: '{"icon_src": "", "domain_slug": "computing", "relative_url": "/computing/computer-science",
@@ -11672,5 +11672,5 @@ http_interactions:
         "", "y_pos": 0.0, "current_revision_key": "8caee9e6c3585e78bbb6e588fa9a0e754e714170",
         "content_id": "x301707a0", "content_kind": "Topic", "curriculum_key": ""}'
     http_version: 
-  recorded_at: Fri, 03 Jun 2016 00:53:50 GMT
+  recorded_at: Fri, 03 Jun 2016 01:03:48 GMT
 recorded_with: VCR 3.0.3
