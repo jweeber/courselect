@@ -4,8 +4,8 @@ Rails.application.routes.draw do
 
   post '/courses' => 'courses#show', as: 'search'
 
-  get '/take' => 'courses#show_to_take', as: 'take'
-  get '/taken' => 'courses#show_taken', as: 'taken'
+  # get '/take' => 'courses#show_to_take', as: 'take'
+  # get '/taken' => 'courses#show_taken', as: 'taken'
 
   resources :users, :only => [:new, :create]
 

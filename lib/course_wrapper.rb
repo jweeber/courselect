@@ -14,9 +14,9 @@ class CourseWrapper
   end
 
   def self.get_khan_courses(keyword)
-    keyword = keyword.downcase.strip.gsub(' ', '-').gsub(/[^\w-]/, '')
+    # course search terms > 1 word have dashes in URL instead of spaces
+    keyword = keyword.downcase.strip.gsub(' ', '-')
     HTTParty.get(KHAN_URL + "/#{keyword}")["children"]
-
   end
 
 end

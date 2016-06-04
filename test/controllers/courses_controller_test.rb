@@ -1,14 +1,11 @@
 require 'test_helper'
 
 module CoursesControllerTest
-  class IndexShowAction < ActionController::TestCase
 
-    test "can get index page" do
+  class IndexAction < ActionController::TestCase
+    test "GET index" do
       get :index
-
       assert_response :success
     end
-
-  end
-  
+  end 
 end
