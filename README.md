@@ -4,8 +4,8 @@ Site that provides search capability across multiple online course websites, pul
 
 ## Learning Goals
 - Solidify knowledge of how to use third-party APIs in Rails.
-- Focus on TDD, including unit (model) and functional (controller) testing.
-- Practice setting up User Auth and OAuth.
+- Focus on TDD
+- Practice setting up User Auth 
 - Gain more exposure to reading and interpreting third-party API documentation.
 - Use more Bootstrap functionality & features.
 
@@ -16,12 +16,10 @@ Anyone who has ever wished they could just search for online courses in one plac
 - Ruby
 - Rails
 - Third-party APIs 
-- OAuth (optional)
 - Bootstrap
 
 ## Dependencies/Gems
 - HTTParty
-- OmniAuth (optional)
 - Bcrypt
 - Simplecov
 - vcr
@@ -29,14 +27,14 @@ Anyone who has ever wished they could just search for online courses in one plac
 ## Course Websites
 - Coursera
 - Udacity
-- Udemy
-- edX (if there is time)
+- Khan Academy
+- Udemy (optional)
+
 
 ## User Authentication
 - Authentication through Rails
 
 ## Nice to Have
-- OAuth through Coursera
 - Four APIs integrated
 
 ## Project Completion
@@ -44,6 +42,6 @@ Anyone who has ever wished they could just search for online courses in one plac
 - Using at least 3 third-party APIs to accomplish the search functionality of the app. 
 - Writing good tests with at least 95% coverage.
 - User Auth through Rails working.
-- Authenticated User feature to add courses to a "courses to take" list.
+
 
 
