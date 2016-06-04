@@ -13,12 +13,12 @@ class CoursesController < ApplicationController
     @khan_results = CourseWrapper.get_khan_courses(keyword)
   end
 
-  def show_to_take
-    @courses = Course.where(to_take: true)
-  end
+  # def show_to_take
+  #   @courses = Course.where(to_take: true)
+  # end
 
-  def show_taken
-    @courses = Course.where(completed: true)
-  end
+  # def show_taken
+  #   @courses = Course.where(completed: true)
+  # end
 
 end

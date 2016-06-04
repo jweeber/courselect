@@ -15,11 +15,11 @@ module CoursesHelper
   end
 
   def description_match(description)
-    description.match(/^.*?[\.!\?](?:\s|$)/)
+    description.match(/^.*?[\.!\?](?:\s|$)/).to_s
   end
 
   def summary_match(summary)
-    summary.match(/^.*?[\.!\?](?:\s|$)/)  
+    summary.match(/^.*?[\.!\?](?:\s|$)/).to_s  
   end
 
 end
