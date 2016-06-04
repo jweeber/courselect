@@ -1,4 +1,4 @@
-<h1>Sign up for Courselect</h1>
+<h1 class="sign-in">Sign up for Courselect</h1>
 <% if @user.errors.any? %>
   <div>
     <h2>Something went wrong! Please try again.</h2>
@@ -35,5 +35,7 @@
   <%= f.password_field :password_confirmation, class: "form-control" %>
   </div>
   </div>
-  <%= f.submit "Create Account",  class: "register-btn", class: "btn btn-success" %>
+  <div class="text-center">
+    <%= f.submit "Create Account", class: "btn btn-primary" %>
+  </div>
 <% end %>

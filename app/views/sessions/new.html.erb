@@ -1,4 +1,4 @@
-<h1>Sign In</h1>
+<h1 class="sign-in">Sign In</h1>
 
 <div class="form-horizontal">
   <%= form_tag sessions_path, method: :post do %>
@@ -17,8 +17,8 @@
       <%= password_field_tag :password, "", class: "form-control" %>
     </div>
     </div>
-
-    <%= submit_tag "Sign In", class: "btn btn-success" %>
-
+    <div class="text-center">
+      <%= submit_tag "Sign In", class: "btn btn-primary" %>
+    </div>
   <% end %>
 </div>

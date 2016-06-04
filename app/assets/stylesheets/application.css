@@ -3,26 +3,49 @@
  *= require_self
  */
 
+html, body {
+  height: 100%;
+}
+
 body {
-	min-height: 100%;
   padding-top: 100px;
 }
 
-li.logged-in {
-	padding: 15px 0px 5px 15px;
+a, a:hover, a:visited {
+  text-decoration: none !important;
+}
+
+li.logged-in a {
+  padding-top: 3.5% !important;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top {
+  background-color: #48413c;
+  color: #FFFFFF;
+}
+
+span.brand-name {
+  color: #FFFFFF;
 }
 
 a.navbar-brand {
   font-size: 35px;
-  color: white;
+}
+
+.navbar-nav > li {
+  font-size: 20px !important; 
+}
+.navbar-nav > li > a {
+  color: white !important;
+  font-size: 20px !important;
 }
 
 a.big-links {
   color: #55775F;
 }
 
-a.big-links:hover, a.big-links:visited {
-  text-decoration: none;
+h2.course-heading {
+  color: #007399;
 }
 
 input#keyword {
@@ -41,7 +64,15 @@ input.btn.btn-primary {
   background-color: #55775F;
 }
 
+.sign-in-btn {
+  
+}
+
 form.search-bar {
+  text-align: center;
+}
+
+.index {
   text-align: center;
 }
 
@@ -52,9 +83,18 @@ form.search-bar {
   border-radius: 15%;
 }
 
+h1.sign-in {
+  text-align: center;
+  margin-bottom: 5%;
+}
+
 .course-img {
   height: 150px;
-  width: 150px;
+  width: 200px;
+}
+
+.khan-img {
+  margin-top: 15%;
 }
 
 .course-info {
@@ -62,14 +102,17 @@ form.search-bar {
 }
 
 .course-row {
-  background-color: rgba(177, 177, 205, 0.4);
+  border: 1px solid #55775F;
   margin-bottom: 2%;
   padding: 2%;
 }
 
-.index {
-  text-align: center;
+.course-links {
+  font-size: 20px;
+  font-weight: bold;
+  color: #55775F;
 }
+
 
 .course-list {
   text-align: center;
@@ -91,6 +134,7 @@ form.search-bar {
 
 footer {
   text-align: right;
+  font-size: 12px;
   font-style: italic;
   padding-right: 5%;
 }
