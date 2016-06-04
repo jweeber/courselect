@@ -2,18 +2,16 @@
 <div class="container">
   <h2>Coursera Results</h2>
   <% if @coursera_results.empty? %>
-  <h4>No courses from Coursera found!</h4>
+    <h4>No courses from Coursera found!</h4>
   <% else %>
     <% @coursera_results.each do |course| %>
     <div class="row course-row">
-      <div class="col-md-1">
-      </div>
       <div class="col-md-8 course-info">
         <h4><%= course["name"] %></h4><br>
         <%= description_match(course["description"]) %><br>
         <%= link_to "Find this on Coursera", coursera_search_link + course["name"], :target => "_blank" %>
         </div>
-        <div class="col-md-3">
+        <div class="col-md-4">
           <%= image_tag course["photoUrl"], class: "course-img" %>
         </div>
       </div>
@@ -28,14 +26,12 @@
   <% else %>
     <% @udacity_results.each do |course| %>
       <div class="row course-row">
-        <div class="col-md-1">
-        </div>
         <div class="col-md-8 course-info">
           <h4><%= course["title"] %></h4><br>
           <%= summary_match(course["summary"]) %><br>
           <%= link_to "Find this on Udacity", course["homepage"], :target => "_blank" %>
         </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
         <%= image_tag course["image"], class: "course-img" %>
       </div>
     </div>
@@ -50,14 +46,12 @@
   <% else %>
     <% @khan_results.each do |course| %>
       <div class="row course-row">
-        <div class="col-md-1">
-        </div>
         <div class="col-md-8 course-info">
           <h4><%= course["title"] %></h4><br>
           <%= description_match(course["description"]) %><br>
           <%= link_to "Find this on Khan Academy", course["url"], :target => "_blank" %>
         </div>
-      <div class="col-md-3">
+      <div class="col-md-4">
       </div>
     </div>
     <% end %>

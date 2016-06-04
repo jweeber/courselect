@@ -14,10 +14,11 @@ li.logged-in {
 
 a.navbar-brand {
   font-size: 35px;
+  color: white;
 }
 
 a.big-links {
-  color: #006600;
+  color: #55775F;
 }
 
 a.big-links:hover, a.big-links:visited {
@@ -31,13 +32,13 @@ input#keyword {
 }
 
 input.btn.btn-primary {
-  border-radius: 50px;
   margin-top: 2%;
   height: 50%;
   width: 20%;
   font-size: 20px;
   white-space: normal;
-  background-color: #006600;
+  border: none;
+  background-color: #55775F;
 }
 
 form.search-bar {
@@ -52,7 +53,6 @@ form.search-bar {
 }
 
 .course-img {
-  border-radius: 25%;
   height: 150px;
   width: 150px;
 }
@@ -63,7 +63,6 @@ form.search-bar {
 
 .course-row {
   background-color: rgba(177, 177, 205, 0.4);
-  border-radius: 25px;
   margin-bottom: 2%;
   padding: 2%;
 }
