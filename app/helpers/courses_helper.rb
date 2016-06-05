@@ -5,13 +5,13 @@ module CoursesHelper
   end
 
   def udacity_courses(search_results, keyword)
-      @searched_for = []
+      searched_for = []
       search_results.each do |course|
         if course["title"].downcase.include?(keyword.downcase)
-          @searched_for << course
+          searched_for << course
         end
     end
-    return @searched_for
+    return searched_for
   end
 
   def description_match(description)

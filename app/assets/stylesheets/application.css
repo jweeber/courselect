@@ -28,6 +28,10 @@ span.brand-name {
   color: #FFFFFF;
 }
 
+p.subtitle {
+  margin-top: 3%;
+}
+
 a.navbar-brand {
   font-size: 35px;
 }
