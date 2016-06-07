@@ -18,8 +18,4 @@ module CoursesHelper
     description.match(/^.*?[\.!\?](?:\s|$)/).to_s
   end
 
-  def summary_match(summary)
-    summary.match(/^.*?[\.!\?](?:\s|$)/).to_s  
-  end
-
 end

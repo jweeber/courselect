@@ -27,7 +27,7 @@
       <div class="row course-row">
         <div class="col-md-8 course-info">
           <h4><%= course["title"] %></h4><br>
-          <%= summary_match(course["summary"]) %><br><br>
+          <%= description_match(course["summary"]) %><br><br>
           <%= link_to "Find this on Udacity", course["homepage"], :target => "_blank", class: "course-links" %>
         </div>
       <div class="col-md-4">
