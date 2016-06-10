@@ -1,5 +1,7 @@
 # Courselect
 
+## Finished site: https://courselect.herokuapp.com
+
 Site that provides search capability across multiple online course websites, pulling in data from third-party APIs. Search for courses by title or keyword and get a list of courses available to take from 3-4 online courses sites, including links to those courses. Users will be able to sign up/log in to add courses to a list of "courses to take" and mark courses they have completed.
 
 ## Learning Goals
